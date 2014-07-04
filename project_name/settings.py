@@ -108,10 +108,10 @@ MIDDLEWARE_CLASSES = [
     "django.contrib.messages.middleware.MessageMiddleware",
 ]
 
-ROOT_URLCONF = "project_name.urls"
+ROOT_URLCONF = "{{ project_name }}.urls"
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = "project_name.wsgi.application"
+WSGI_APPLICATION = "{{ project_name }}.wsgi.application"
 
 TEMPLATE_DIRS = [
     os.path.join(PACKAGE_ROOT, "templates"),
@@ -137,11 +137,11 @@ INSTALLED_APPS = [
     "wiki",
 
     # project
-    "project_name",
+    "{{ project_name }}",
 ]
 
 
-WIKI_HOOKSET = "project_name.hooks.ProjectWikiHookset"
+WIKI_HOOKSET = "{{ project_name }}.hooks.ProjectWikiHookset"
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

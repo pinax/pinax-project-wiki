@@ -1,5 +1,6 @@
 pinax-project-wiki
 =====================
+[![Join us on Slack](http://slack.pinaxproject.com/badge.svg)](http://slack.pinaxproject.com/)
 
 a demo starter project that provides a wiki for authenticated users
 

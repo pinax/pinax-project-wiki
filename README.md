@@ -5,7 +5,7 @@
 a demo starter project that provides a wiki for authenticated users and shows off
 integration of [pinax-wiki](http://github.com/pinax/pinax-wiki)
 
-The source code for this project template has moved to the [account branch](https://github.com/pinax/pinax-projects/tree/wiki) of [pinax-projects](https://github.com/pinax/pinax-projects/).
+The source code for this project template has moved to the [wiki branch](https://github.com/pinax/pinax-projects/tree/wiki) of [pinax-projects](https://github.com/pinax/pinax-projects/).
 
 ##### Prerequisites
 

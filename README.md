@@ -1,28 +1,34 @@
-# Pinax Project Wiki
+Pinax Project Wiki
+===================
 
 [![Join us on Slack](http://slack.pinaxproject.com/badge.svg)](http://slack.pinaxproject.com/)
 
-pinax-project-wiki is a demo starter project that provides a wiki for authenticated users and shows off
-integration of [pinax-wiki](http://github.com/pinax/pinax-wiki)
+
+Pinax
+-------
 
 Pinax is an open-source platform built on the Django Web Framework. It is an ecosystem of reusable Django apps, themes, and starter project templates. 
 This collection can be found at http://pinaxproject.com.
 
-In order to foster a kind, inclusive, and harassment-free community, the Pinax Project has a code of conduct, which can be found here  http://pinaxproject.com/pinax/code_of_conduct/.
 
-The Pinax documentation is available at http://pinaxproject.com/pinax/.
+pinax-project-wiki
+--------------------
 
-For updates and news regarding the Pinax Project, please follow us on Twitter at [@pinaxproject](https://twitter.com/pinaxproject) and check out our blog http://blog.pinaxproject.com.
+`pinax-project-wiki` is a demo starter project that provides a wiki for authenticated users and shows off
+integration of [pinax-wiki](http://github.com/pinax/pinax-wiki)
 
 The source code for this project template has moved to the [wiki branch](https://github.com/pinax/pinax-projects/tree/wiki) of [pinax-projects](https://github.com/pinax/pinax-projects/).
 
-##### Prerequisites
+
+Prerequisites
+--------------
 
 * pip
 * npm
 
 
-##### Getting Started
+Getting Started
+----------------
 
 You can get started with this project by doing the following:
 
@@ -41,7 +47,8 @@ npm install
 ./manage.py runserver
 ```
 
-##### Static Media
+Static Media
+--------------
 
 Static media is managed by `webpack`, and is configured out of the box to watch
 and rebuild on change by running:
@@ -52,3 +59,24 @@ npm run watch
 
 We recommend running that in a separate terminal window than `manage.py runserver`
 if and when you are editing `js` or `less` files.
+
+
+Documentation
+--------------
+
+The Pinax documentation is available at http://pinaxproject.com/pinax/.
+
+
+Code of Conduct
+-----------------
+
+In order to foster a kind, inclusive, and harassment-free community, the Pinax Project has a code of conduct, which can be found here  http://pinaxproject.com/pinax/code_of_conduct/.
+
+
+Pinax Project Blog and Documentation
+------------------------------------
+
+For updates and news regarding the Pinax Project, please follow us on Twitter at [@pinaxproject](https://twitter.com/pinaxproject) and check out our blog http://blog.pinaxproject.com.
+
+
+
